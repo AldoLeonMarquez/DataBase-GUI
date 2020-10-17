@@ -1,0 +1,44 @@
+//Special Query 1 
+
+Combo Box: TeamsSQ1
+To get the ComboBox Selection:String selected_text = "\""+(String) TeamsSQ1.getItemAt(TeamsSQ1.getSelectedIndex())+"\"";
+example Output "\"Conference\"";
+
+Buttons{
+   Two add teams:SQ1AddTeam  //Lines 734-740
+   To get Result:SQ1Result   //Lines 742-748
+}
+
+//Special Query 2
+
+
+Combo Box: PlayersSQ2
+To get the ComboBox Selection:String selected_text = "\""+(String) PlayersSQ2.getItemAt(PlayersSQ2.getSelectedIndex())+"\"";
+example Output "\"Conference\"";
+
+Buttons{
+
+   Two add teams:SQ2AddTeam  //Lines 764-770
+   To get Result:SQ2Result   //Lines 772-778
+}
+
+//Special Query 3
+
+Combo Box: SQ3Box
+To get the ComboBox Selection:String selected_text = "\""+(String) SQ3Box.getItemAt(SQ3Box.getSelectedIndex())+"\"";
+example Output "\"Conference\"";
+
+Buttons{
+   Two add teams:SQ3AddTeam  //Lines 794-800
+   To get Result:SQ3Result   //Lines 802-808
+}
+
+//Special Query 4
+
+Combo Box: SQ4Box
+To get the ComboBox Selection:String selected_text = "\""+(String) SQ4Box.getItemAt(SQ4Box.getSelectedIndex())+"\"";
+example Output "\"Conference\"";
+
+Buttons{
+   To get Result:SQ4Button //Lines 820-826
+}

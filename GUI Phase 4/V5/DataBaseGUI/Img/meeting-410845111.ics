@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200323T014858Z
+DTSTART;TZID=America/Chicago:20200323T135000
+DTEND;TZID=America/Chicago:20200323T145000
+SUMMARY:CSCE 411 500
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200427T195000;INTERVAL=1;BYDAY=MO,WE,FR
+ 
+UID:ZOOM410845111
+TZID:America/Chicago
+DESCRIPTION:Garay\, Juan A le está invitando a una reunión de Zoom progra
+ mada.\n\nUnirse a la reunión Zoom\nhttps://tamu.zoom.us/j/410845111\n\nI
+ D de reunión: 410 845 111\n\nMóvil con un toque\n+13462487799\,\,4108451
+ 11# Estados Unidos de América (Houston)\n+16699006833\,\,410845111# Esta
+ dos Unidos de América (San José)\n\nMarcar según su ubicación\n        +
+ 1 346 248 7799 Estados Unidos de América (Houston)\n        +1 669 900 6
+ 833 Estados Unidos de América (San José)\n        +1 301 715 8592 Estado
+ s Unidos de América\n        +1 312 626 6799 Estados Unidos de América (
+ Chicago)\n        +1 929 436 2866 Estados Unidos de América (Nueva York)
+ \n        +1 253 215 8782 Estados Unidos de América\n        888 788 009
+ 9 Estados Unidos de América número gratuito\n        877 853 5247 Estado
+ s Unidos de América número gratuito\nID de reunión: 410 845 111\nEncuent
+ re su número local: https://tamu.zoom.us/u/adYF85jPae\n\nUnirse mediante
+  SIP\n410845111@zoomcrc.com\n\nUnirse mediante H.323\n162.255.37.11 (US 
+ West)\n162.255.36.11 (US East)\n221.122.88.195 (China)\n115.114.131.7 (I
+ ndia Mumbai)\n115.114.115.7 (India Hyderabad)\n213.19.144.110 (EMEA)\n10
+ 3.122.166.55 (Australia)\n209.9.211.110 (Hong Kong)\n64.211.144.160 (Bra
+ zil)\n69.174.57.160 (Canada)\n207.226.132.110 (Japan)\nID de reunión: 41
+ 0 845 111\n\nUnirse mediante Skype Empresarial\nhttps://tamu.zoom.us/sky
+ pe/410845111\n
+LOCATION:https://tamu.zoom.us/j/410845111
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
